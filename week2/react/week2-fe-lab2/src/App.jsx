@@ -2,6 +2,7 @@
 function Hello() {
   return <p>Hello, React</p>;
 }
+
 function Bye() {
   return <p> Goodbye, React!</p>;
 }
@@ -14,4 +15,5 @@ function App() {
     </div>
   );
 }
+
 export default App;

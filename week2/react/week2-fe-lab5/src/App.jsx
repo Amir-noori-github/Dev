@@ -10,8 +10,8 @@ function App() {
       <Header/>
       <Footer/>
       <MainContent/>
-
     </div>
   );
 }
+
 export default App; 

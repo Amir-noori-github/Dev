@@ -1,5 +1,4 @@
 // BoxColor.jsx
-import React from 'react';
 
 const BoxColor = ({ r, g, b }) => {
   const rgbColor = `rgb(${r}, ${g}, ${b})`; // <-- backticks for template literal
@@ -19,7 +18,7 @@ const BoxColor = ({ r, g, b }) => {
     border: "1px solid #000",
     borderRadius: "8px",
     textAlign: "center",
-    fontFamily: "sans-serif"
+    fontFamily: "sans-serif",
   };
 
   return (

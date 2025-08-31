@@ -9,6 +9,6 @@ function App() {
       <Bye/>
     </div>
   );
-
 }
+
 export default App; 
