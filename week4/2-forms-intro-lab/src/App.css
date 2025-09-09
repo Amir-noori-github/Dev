@@ -1,0 +1,64 @@
+/* Container */
+.contact-container {
+  max-width: 400px;       /* narrower form */
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #fafafa;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.contact-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Form groups */
+.contact-container form > div {
+  margin-bottom: 0.75rem;
+}
+
+/* Labels */
+.contact-container label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  margin-bottom: 0.25rem;
+  display: block;
+}
+
+/* Inputs, selects, textarea */
+.contact-container input[type="text"],
+.contact-container select,
+.contact-container textarea {
+  width: 100%;
+  padding: 0.4rem;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact-container textarea {
+  min-height: 60px; /* smaller height */
+  resize: vertical;
+}
+
+/* Submit button */
+.contact-container button[type="submit"] {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 0.95rem;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.contact-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
