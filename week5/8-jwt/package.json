@@ -1,0 +1,16 @@
+{
+  "name": "05-jwt",
+  "packageManager": "yarn@4.9.2",
+  "dependencies": {
+    "jsonwebtoken": "^9.0.2"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "jwt_lab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

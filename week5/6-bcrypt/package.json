@@ -1,0 +1,16 @@
+{
+  "name": "03-bcrypt",
+  "packageManager": "yarn@4.9.2",
+  "dependencies": {
+    "bcrypt": "^6.0.0"
+  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "bcrypt_lab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
