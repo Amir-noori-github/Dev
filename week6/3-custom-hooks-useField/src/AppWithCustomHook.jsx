@@ -1,0 +1,42 @@
+// AppWithCustomHook.jsx
+import useField from './useField';
+
+const AppWithCustomHook = () => {
+  const nameInput = useField('text');
+  const bornInput = useField('date');
+  const heightInput = useField('number');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('Form submitted:', {
+      name: nameInput.value,
+      born: bornInput.value,
+      height: heightInput.value,
+    });
+  };
+
+  return (
+    <div>
+      <form onSubmit={handleSubmit}>
+        <div>
+          Name: <input {...nameInput} />
+        </div>
+        <br />
+        <div>
+          Birthdate: <input {...bornInput} />
+        </div>
+        <br />
+        <div>
+          Height: <input {...heightInput} />
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+
+      <div>
+        {nameInput.value} {bornInput.value} {heightInput.value}
+      </div>
+    </div>
+  );
+};
+
+export default AppWithCustomHook;
